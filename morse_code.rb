@@ -25,7 +25,7 @@ def decode_word(string_word)
 end
 
 def decode(string)
-  string.split(' ').map do |word|
+  string.split.map do |word|
     decode_word(word).strip
   end.join(' ')
 end
