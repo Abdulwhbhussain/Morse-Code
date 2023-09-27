@@ -25,8 +25,8 @@ end
 
 def decode(string)
   decoded_string = ''
-  wordsArray = string.split('   ')
-  wordsArray.each do |word|
+  words_array = string.split('   ')
+  words_array.each do |word|
     decoded_string += decode_word(word)
     decoded_string += ' '
   end
