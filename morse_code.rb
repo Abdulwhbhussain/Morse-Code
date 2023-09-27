@@ -1,4 +1,3 @@
-# Morse Code Converter
 # Morse Code Hash
 
 def decode_char(string_char)
@@ -25,9 +24,13 @@ def decode_word(string_word)
 end
 
 def decode(string)
-  string.split.map do |word|
-    decode_word(word).strip
-  end.join(' ')
+  decoded_string = ''
+  wordsArray = string.split('   ')
+  wordsArray.each do |word|
+    decoded_string += decode_word(word)
+    decoded_string += ' '
+  end
+  decoded_string
 end
 
 puts decode('.... . .-.. .-.. ---   .-- --- .-. .-.. -..')
