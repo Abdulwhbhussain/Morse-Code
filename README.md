@@ -10,7 +10,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Decode  Morse Message ](#-decode--morse-message-)
+- [📖 Decode Morse Message ](#-decode--morse-message-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -27,7 +27,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Decode  Morse Message <a name="about-project"></a>
+# 📖 Decode Morse Message <a name="about-project"></a>
 
 **Decode Morse Message** is a tool designed for translating Morse code sentences into English text.
 
@@ -48,7 +48,6 @@
 - **Decode morse code to Text**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- GETTING STARTED -->
 
@@ -78,7 +77,6 @@ Install this project with:
 
 - Ruby
 
-
 ## 👥 Authors<a name="authors"></a>
 
 👤 **Abdul Wahab Hussain**
@@ -87,11 +85,11 @@ Install this project with:
 > - LinkedIn: [Abdulwhbhussain](https://www.linkedin.com/in/abdulwhbhussain)
 > - Twitter: [Abdulwhbhussain](https://twitter.com/AbdulWhbHussain)
 
-👤 **Than Myo Htet**
+👤 Sodeeq Awoyemi
 
-> - GitHub: [@YoutLone](https://github.com/YoutLone)
-> - LinkedIn: [than-myo-htet-618b2524b](https://linkedin.com/in/than-myo-htet-618b2524b)
-> - Twitter: [ThanMyoHte64860](https://twitter.com/ThanMyoHte64860)
+- GitHub: [@githubhandle](https://github.com/Errytagedesign)
+- Twitter: [@twitterhandle](https://twitter.com/errytage)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/errytagedesigns/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,7 +118,6 @@ Feel free to check the [issues page](https://github.com/Abdulwhbhussain/Morse-co
 If you like this project kindly leave a ⭐
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
