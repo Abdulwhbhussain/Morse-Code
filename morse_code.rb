@@ -12,6 +12,10 @@ def decode_char(string_char)
     '.....' => '5', '-....' => '6', '--...' => '7', '---..' => '8', '----.' => '9',
     '-----' => '0'
   }
+
+  # Remove trailing whitespace
+  morse_code = morse_code.strip
+
   morse_code[string_char]
 end
 
@@ -22,3 +26,4 @@ def decode_word(string_word)
   end
   word
 end
+
