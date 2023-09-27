@@ -13,9 +13,6 @@ def decode_char(string_char)
     '-----' => '0'
   }
 
-  # Remove trailing whitespace
-  morse_code = morse_code.strip
-
   morse_code[string_char]
 end
 
@@ -27,3 +24,11 @@ def decode_word(string_word)
   word
 end
 
+def decode(string)
+  string.split(" ").map do |word|
+    decode_word(word).strip
+  end.join(" ")
+end
+
+puts decode('.... . .-.. .-.. ---   .-- --- .-. .-.. -..')
+puts decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
